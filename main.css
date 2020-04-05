@@ -1,0 +1,21 @@
+path {
+    transition:opacity .35s;
+
+    transform-origin:left center; 
+}
+
+.-hidden {
+    opacity: 0.2;
+    transition:.3s;
+}
+
+.-active {
+    opacity: 1;
+    transition:.3s;
+}
+
+#container {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
